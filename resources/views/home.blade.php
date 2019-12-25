@@ -36,7 +36,7 @@
                             <div class="card-header">
                                 <img class="rounded-circle d-inline" src="../img/{{ $post->user_id }}.png" width=7% onerror="this.onerror=null;this.src='../img/default.png';">
                                 <a href="user/{{ $post->user_id }}" class="card-title text-secondary d-inline pl-3">
-                                    <h5 class="card-title d-inline">{{ $post->user->name . trans('profile.posts')}}</h5>
+                                    <h5 class="card-title d-inline">{{ $post->user->name}}</h5>
                                 </a>
                             </div>
                             <div class="card-body pb-0">
@@ -59,7 +59,7 @@
                         <div class="card-header">
                             <img class="rounded-circle d-inline" src="../img/{{ $post->user_id }}.png" width=7% onerror="this.onerror=null;this.src='../img/default.png';">
                             <a href="user/{{ $post->user_id }}" class="card-title text-secondary d-inline pl-3">
-                                <h5 class="card-title d-inline">{{ $post->user->name . trans('profile.posts')}}</h5>
+                                <h5 class="card-title d-inline">{{ $post->user->name }}</h5>
                             </a>
                         </div>
                         <div class="card-body">
